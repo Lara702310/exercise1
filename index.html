@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Tech 2025</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">FUTURE TECH</div>
+        <nav>
+            <ul>
+                <li><a href="#home">მთავარი</a></li>
+                <li><a href="#schedule">განრიგი</a></li>
+                <li><a href="#register">რეგისტრაცია</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <main>
+            <section id="home" class="hero">
+
+                <h1>მომავალი იწყება აქ</h1>
+                <p>მოგესალმებით წლის ყველაზე მნიშვნელოვან ტექნოლოგიურ კონფერენციაზე</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <strong>50+</strong>
+                        <span>მომხსენებელი</span>
+                    </div>
+                    <div class="stat-item number">
+                        <strong>20</strong>
+                        <span>ქვეყანა</span>
+                    </div>
+                    <div class="stat-item label ">
+                        <strong>3</strong>
+                        <span>დღე</span>
+                    </div>
+                </div>
+            </section>
+            <section id="schedule">
+                <div class="glass-panel">
+                    <h2>ღონისძიების განრიგი</h2>
+                    <table>
+                        <caption><i>დღე 1 შესავალი და AI</i></caption>
+                        <thead>
+                            <tr>
+                                <th>დრო</th>
+                                <th>თემა</th>
+                                <th>სპიკერი</th>
+                                <th>დარბაზი</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00-11:00</td>
+                                <td>ხელოვნური ინტელექტის მომავალი</td>
+                                <td>გიორგი ბერიძე</td>
+                                <td>მთავარი დარბაზი</td>
+
+
+                            </tr>
+                            <tr>
+                                <td>11:30-13:00</td>
+                                <td>კვანტური გამოთვლები</td>
+                                <td>ანა მამულაშვილი</td>
+                                <td>დარბაზი B</td>
+
+                            </tr>
+                            <tr>
+                                <td>14:00-15:30</td>
+                                <td>კიბერუსაფრთხოება 2025</td>
+                                <td>დავით კაპანაძე</td>
+                                <td>მთავარი დარბაზი</td>
+
+                            </tr>
+                            <tr>
+                                <td>16:00-17:30</td>
+                                <td>Blockchain ტექნოლოგიები</td>
+                                <td>სოფო გელოვანი</td>
+                                <td>დარბაზი C</td>
+
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">განრიგი შეიძლება შეიცვალოს</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </section>
+            <section id="register" class="form-group glass-panel">
+                <h2>რეგისტრაცია</h2>
+                <form>
+                    <label for="name"> სრული სახელი</label>
+                    <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required>
+
+                    <label for="email">ელ. ფოსტა</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="ticket">ბილეთის ტიპი</label>
+                    <select id="ticket" name="ticket" required>
+                        <option value="" disabled selected>— აირჩიეთ პრიორიტეტი —</option>
+                        <option value="სტანდარტული">სტანდარტული</option>
+                        <option value="vip">VIP</option>
+                    </select><br><br>
+
+                    <p>ინტერესის სფერო</p>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox"><input type="checkbox" name="topic" value="ai">AI & ML </label>
+
+                        <label class="checkbox"><input type="checkbox" name="topic" value="web-dev"> Web Dev</label>
+
+                        <label class="checkbox"><input type="checkbox" name="topic" value="mobile"> Mobile</label>
+
+                    </div>
+                    <div>
+                        <label for="message">კომენტარი</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+
+                    <button class="btn-primary" type="submit">დარეგისტრირდი</button>
+
+                </form>
+
+            </section>
+        </main>
+        <aside>
+            <div class="widget glass-panel">
+                <h3>სიახლეები</h3>
+                <ul>
+                    <li><span>08:30</span>რეგისტრაცია დაიწყო</li>
+                    <li><span>10:30</span>ახალი სპიკერი დაემატა</li>
+                    <li><span>11:30</span> ვორშოპების განრიგი</li>
+                </ul>
+            </div>
+            <div class="sponsors span glass-panel">
+                <h3>სპონსორები</h3>
+                <span>TechCorp.</span>
+                <span>InovateGe</span>
+                <span>FutureLabs</span>
+            </div>
+
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2025 Future Tech Conference. ყველა უფლება დაცულია.</p>
+        <p> <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linckedln</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
